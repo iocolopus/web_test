@@ -5,7 +5,7 @@ function registrar(){
     var object = {user:user, password:password}
 
     // Llamada a la API con el método GET
-    fetch("http://localhost:8000/registrar", {
+    fetch("https://web-test-n7rj.onrender.com/registrar", {
         method : "POST",
         headers : {"Content-Type": "application/json"},
         body: JSON.stringify(object)
@@ -39,7 +39,7 @@ function entrar(){
     var object = {user:user, password:password}
 
     // Llamada a la API con el método GET
-    fetch("http://localhost:8000/entrar", {
+    fetch("https://web-test-n7rj.onrender.com/entrar", {
         method : "POST",
         headers : {"Content-Type": "application/json"},
         body: JSON.stringify(object)
