@@ -9,10 +9,7 @@ class User(BaseModel):
 app = FastAPI()
 
 # Configura los orígenes permitidos (puedes ajustar según tus necesidades)
-origins = [
-    "http://127.0.0.1:5500",  # Cambia esto según la dirección de tu frontend
-    "http://localhost:8000",  # Permite el acceso desde el mismo servidor
-]
+origins = ["*"]
 
 # Agrega el middleware de CORS
 app.add_middleware(
