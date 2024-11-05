@@ -10,6 +10,13 @@ body {
     background-color: #f0f2f5;
 }
 
+@media {
+    body {
+        font-size: 18px; /* Aumenta el tamaño de fuente en pantallas pequeñas */
+        zoom: 2; /* Aumenta el zoom para que todo se vea un poco más grande */
+    }
+}
+
 form {
     background-color: #fff;
     padding: 30px;
